@@ -4,7 +4,7 @@ var relativePath = require('cached-path-relative');
 
 var browserResolve = require('browser-resolve');
 var nodeResolve = require('resolve');
-var detective = require('detective');
+var detective = require('@naiverlabs/detective');
 var through = require('through2');
 var concat = require('concat-stream');
 var parents = require('parents');

@@ -1,20 +1,20 @@
 {
-  "name": "module-deps",
-  "version": "6.2.3",
+  "name": "@naiverlabs/module-deps",
+  "version": "7.0.0",
   "description": "walk the dependency graph to generate json output that can be fed into browser-pack",
   "main": "index.js",
   "bin": {
     "module-deps": "bin/cmd.js"
   },
   "dependencies": {
-    "JSONStream": "^1.0.3",
+    "@naiverlabs/detective": "^6.0.0",
     "browser-resolve": "^2.0.0",
     "cached-path-relative": "^1.0.2",
     "concat-stream": "~1.6.0",
     "defined": "^1.0.0",
-    "detective": "^5.2.0",
     "duplexer2": "^0.1.2",
     "inherits": "^2.0.1",
+    "JSONStream": "^1.0.3",
     "parents": "^1.0.0",
     "readable-stream": "^2.0.2",
     "resolve": "^1.4.0",
@@ -32,9 +32,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/browserify/module-deps.git"
+    "url": "git://github.com/naiverlabs/module-deps.git"
   },
-  "homepage": "https://github.com/browserify/module-deps",
+  "homepage": "https://github.com/naiverlabs/module-deps",
   "keywords": [
     "dependency",
     "graph",
@@ -44,11 +44,14 @@
     "exports",
     "json"
   ],
-  "author": {
-    "name": "James Halliday",
-    "email": "mail@substack.net",
-    "url": "http://substack.net"
-  },
+  "contributors": [
+    "Yanlong Wang <yanlong.wang@naiver.org>",
+    {
+      "name": "James Halliday",
+      "email": "mail@substack.net",
+      "url": "http://substack.net"
+    }
+  ],
   "engines": {
     "node": ">= 0.8.0"
   },
